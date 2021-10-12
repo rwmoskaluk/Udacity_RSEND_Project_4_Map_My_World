@@ -19,6 +19,7 @@
             <param name="subscribe_depth"     type="bool"   value="true"/>
             <param name="subscribe_scan"      type="bool"   value="true"/>
 
+
             <!-- RTAB-Map Inputs -->
             <remap from="scan" to="/scan"/>
             <remap from="rgb/image" to="$(arg rgb_topic)"/>
@@ -53,6 +54,10 @@
 
             <!-- Set to false to avoid saving data when robot is not moving -->
             <param name="Mem/NotLinkedNodesKept" type="string" value="false"/>
+
+            <!-- Param that is supposed to help with problems in mapping -->
+            <param name="Optimizer/Robust" type="string" value="true"/>
+
         </node>
 
         <!-- visualization with rtabmapviz -->
