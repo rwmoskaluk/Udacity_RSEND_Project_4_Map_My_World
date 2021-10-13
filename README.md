@@ -1,6 +1,6 @@
 # Udacity_RSEND_Project_4_Map_My_World
 
-[image1]: ./pictures/rtabmap_viz.png "Rtabmap visualization"
+[image1]: ./pictures/rtabmap_mapping.png "Rtabmap visualization"
 [image2]: ./pictures/rtabmap_databaseviewer_mapping.png "Rtabmap visualization database viewer"
 [image3]: ./pictures/rviz_localization.png "Rviz localization with Rtabmap"
 [image4]: ./pictures/Rtabmap_localization.png "Rtabmap localization"
