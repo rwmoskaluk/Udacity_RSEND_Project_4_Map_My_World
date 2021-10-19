@@ -6,8 +6,9 @@
 [image4]: ./pictures/Rtabmap_localization.png "Rtabmap localization"
 [image5]: ./pictures/rtabmap_databaseviewer_bad.png "Rtabmap database viewer bad map"
 [image6]: ./pictures/Rtabmap_database_viewer_3dmap_bad.png "3d Distorted map"
-[image7]: ./pictures/Rtabmap_databaseviewer_final.png "Rtabmap database viewer good map"
-[image8]: ./pictures/Rtabmap_databaseviewer_3dmap.png "3d Non Distorted map"
+[image7]: ./pictures/Rtabmap_databaseviewer_final_v2.png "Rtabmap database viewer good map"
+[image8]: ./pictures/Rtabmap_databaseviewer_3dmapv2.png "3d Non Distorted map"
+[image9]: ./pictures/Rtabmap_databaseviewer_3dmap_v2_top.png "3d Non Distorted map top down view"
 
 
 ### Project Overview
@@ -26,7 +27,7 @@ source devel/setup.bash
 Launch the world in terminal
 ```
 source devel/setup.bash
-roslaunch my_robot my_world.launch
+roslaunch my_robot world.launch
 ```
 
 Launch the mapping process in another terminal
@@ -111,6 +112,10 @@ Bad map with distortion
 Good map utilizing above settings
 ![alt text][image7]
 ![alt text][image8]
+![alt text][image9]
+
+
+<img src="pictures/3dmap_final.gif?raw=true" width="720px">
 
 
 
